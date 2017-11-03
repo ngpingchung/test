@@ -130,8 +130,8 @@ namespace Income
             train.FinishTraining();
 
             // test the neural network
-            double inputIncome = 0;
-            double inputEduExpense = 0;
+            double inputIncome = 250000;
+            double inputEduExpense = 500;
             inputIncome = normIncome.Normalize(inputIncome);
             inputEduExpense = normEduExpense.Normalize(inputEduExpense);
 
